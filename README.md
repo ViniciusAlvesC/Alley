@@ -2,7 +2,7 @@
 ### Projeto final desenvolvimento Web - 5º
 > Site criado ao longo do 5º semestre (Ciência da Computação), como projeto final.
 
-#### To do:
+#### Tarefas
 - [x] Criar Projeto AdobeXD;
 - [x] Criar template ultilizando Bootstrap4 e Sass, sem nenhuma funcionalidade;
 - [x] Criar template React, sem nenhuma funcionalidade;
@@ -44,6 +44,14 @@ Qualquer um pode criar um perfil e postar seu trabalho, o artista pode linkar ou
 - Sass
 - Go
 - MongoDB
+
+#### Instalar e executar o projeto!
+
+    //Navegando entre pastas através do comando "cd" no terminal, execute os seguintes comandos no caminho /Alley/alley:
+    
+    $ npm install 
+    $ cd src/
+    $ npm start
 
 ![alley](https://user-images.githubusercontent.com/36689790/64336210-cfdce780-cfb2-11e9-9289-b4f08fcffd13.png)
 ###### (AdobeXD first project)
