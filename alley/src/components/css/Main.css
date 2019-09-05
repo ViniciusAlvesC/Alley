@@ -1,0 +1,36 @@
+.mainapp {
+  height: 100%;
+  background: url("../../img/bgmain.png");
+  background-size: cover;
+  background-position: center; }
+
+.info {
+  margin: 23% 0 0 0;
+  color: #272727; }
+  .info h1 {
+    text-align: left;
+    font-size: 5.5em;
+    font-weight: bold;
+    letter-spacing: -1.5px; }
+  .info p {
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: -0.38px;
+    max-width: 500px; }
+
+.botao {
+  border-radius: 40px;
+  text-align: center;
+  text-decoration: none;
+  padding: 17px;
+  width: 30%;
+  background: #4d50e3; }
+  .botao a {
+    color: #fdfdff;
+    font-weight: bold; }
+
+.app img {
+  width: 100%;
+  margin: 35% 0 35% 0; }
+
+/*# sourceMappingURL=Main.css.map */

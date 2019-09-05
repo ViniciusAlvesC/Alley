@@ -1,0 +1,74 @@
+$textcolor: #272727;
+
+.trending {
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: -0.53px;
+  color: $textcolor;
+  margin-bottom: 15px;
+}
+
+.filter {
+  padding: 15px 0;
+}
+
+.tags {
+  display: flex;
+}
+
+.tag {
+  display: block;
+  border: 2px solid #707070;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-right: 15px;
+  color: $textcolor;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  background: url("../../img/profile-pic.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-items {
+  h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  i {
+    color: $textcolor;
+    float: right;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
+
+.info-items {
+  h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  i {
+    color: $textcolor;
+    float: right;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}

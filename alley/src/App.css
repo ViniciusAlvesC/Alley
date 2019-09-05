@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,500,600,700&display=swap");
+
+.App {
+  background: #eaeaea;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
