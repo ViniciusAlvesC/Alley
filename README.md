@@ -46,12 +46,13 @@ Qualquer um pode criar um perfil e postar seu trabalho, o artista pode linkar ou
 - MongoDB
 
 #### Instalar e executar o projeto!
-
-    //Navegando entre pastas através do comando "cd" no terminal, execute os seguintes comandos no caminho /Alley/alley:
     
+    ```console
+    //Navegando entre pastas através do comando "cd", execute os seguintes comandos:
     $ npm install 
     $ cd src/
     $ npm start
+    ```
 
 ![alley](https://user-images.githubusercontent.com/36689790/64336210-cfdce780-cfb2-11e9-9289-b4f08fcffd13.png)
 ###### (AdobeXD first project)
