@@ -47,6 +47,8 @@ Qualquer um pode criar um perfil e postar seu trabalho, o artista pode linkar ou
 
 #### Instalar e executar o projeto!
 
+Navegando entre pastas através do comando "cd", execute os seguintes comandos no caminho /Alley/alley:
+
 ```shell
 $npm install
 $cd src/
