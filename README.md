@@ -4,7 +4,7 @@ Site criado ao longo do 5º semestre (Ciência da Computação), como projeto fi
 
 #### O site não vai ao ar.
 
-Existem milhares de plataformas relacionadas a arte, mais robustas e com mais funcionalidades, escolhi o Alley como projeto final porque o objetivo era criar um servidor, um banco de dados e o front-end, como o projeto é uma espécie de portfólio, onde pessoas podem criar perfis, curtirem postagens e postar suas artes, ele acaba englobando todos esses aspectos.
+Existem milhares de plataformas relacionadas a arte, mais robustas e com mais funcionalidades, escolhi o Alley como projeto final porque o objetivo era criar um servidor, um banco de dados e o front-end, como o projeto é uma espécie de portfólio, onde pessoas podem criar um perfil, curtir postagens e postar suas artes, ele acaba englobando todos esses aspectos.
 
 #### Artistas
 
