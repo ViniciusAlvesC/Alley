@@ -4,7 +4,7 @@
 # Alley
 #### Projeto final desenvolvimento Web - 5º
 
-##### Ferramentas usadas:
+##### Ferramentas ultilizadas:
 
 - React
 - Reactstrap
