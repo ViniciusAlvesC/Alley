@@ -9,3 +9,5 @@
 - React
 - Reactstrap
 - Sass
+- Go
+- MongoDB
