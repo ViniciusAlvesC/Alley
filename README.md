@@ -46,9 +46,8 @@ Qualquer um pode criar um perfil e postar seu trabalho, o artista pode linkar ou
 - MongoDB
 
 #### Instalar e executar o projeto!
-    
-    ```console
-    //Navegando entre pastas através do comando "cd", execute os seguintes comandos:
+//Navegando entre pastas através do comando "cd", execute os seguintes comandos:
+    ```shell
     $ npm install 
     $ cd src/
     $ npm start
