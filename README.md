@@ -2,7 +2,7 @@
 ### Projeto final desenvolvimento Web - 5º
 Site criado ao longo do 5º semestre (Ciência da Computação), como projeto final.
 
-#### O site não vai ao ar.
+#### Site não vai ao ar.
 
 Existem milhares de plataformas relacionadas a arte, mais robustas e com mais funcionalidades, escolhi o Alley como projeto final porque o objetivo era criar um servidor, um banco de dados e o front-end, como o projeto é uma espécie de portfólio, onde pessoas podem criar um perfil, curtir postagens e postar suas artes, ele acaba englobando todos esses aspectos tecnicos citados.
 
