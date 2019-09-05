@@ -2,7 +2,7 @@
 ### Projeto final desenvolvimento Web - 5º
 > Site criado ao longo do 5º semestre (Ciência da Computação), como projeto final.
 
-#### To do
+#### To do:
 - [x] Criar Projeto AdobeXD;
 - [x] Criar template ultilizando Bootstrap4 e Sass, sem nenhuma funcionalidade;
 - [x] Criar template React, sem nenhuma funcionalidade;
