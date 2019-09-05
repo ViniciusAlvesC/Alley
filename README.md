@@ -37,14 +37,6 @@ Alley é uma plataforma de arte independente, onde artistas podem postar seus tr
 
 Qualquer um pode criar um perfil e postar seu trabalho, o artista pode linkar outras redes sociais em sua página e dar uma breve descrição sobre ele e sua arte.
 
-#### Ferramentas ultilizadas:
-
-- React
-- Reactstrap
-- Sass
-- Go
-- MongoDB
-
 #### Instalar e executar o projeto!
 
 Navegando entre pastas através do comando "cd", execute os seguintes comandos no caminho /Alley/alley:
@@ -54,6 +46,14 @@ $npm install
 $cd src/
 $npm start
 ```
+
+#### Ferramentas ultilizadas:
+
+- React
+- Reactstrap
+- Sass
+- Go
+- MongoDB
 
 ![alley](https://user-images.githubusercontent.com/36689790/64336210-cfdce780-cfb2-11e9-9289-b4f08fcffd13.png)
 ###### (AdobeXD first project)
