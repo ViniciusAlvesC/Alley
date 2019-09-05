@@ -1,6 +1,14 @@
 # Alley
 ### Projeto final desenvolvimento Web - 5º
-Site criado ao longo do 5º semestre (Ciência da Computação), como projeto final.
+> Site criado ao longo do 5º semestre (Ciência da Computação), como projeto final.
+
+#### Tarefas
+- [x] Criar Projeto AdobeXD;
+- [x] Criar template ultilizando Bootstrap4 e Sass, sem nenhuma funcionalidade;
+- [x] Criar template React, sem nenhuma funcionalidade;
+- [ ] Criar servidor Nodejs;
+- [ ] Criar banco de dados MongoDB;
+- [ ] Transicionar servidor para Go;
 
 #### Site não vai ao ar.
 
