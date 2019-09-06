@@ -1,0 +1,39 @@
+$textcolor: #272727;
+$tags: #4B4B4B;
+
+.title {
+  display: flex;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+  color: $textcolor;
+}
+
+.categories {
+  display: flex;
+
+  p {
+    color: white;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    background: $tags;
+    padding: 1px 15px;
+    margin: 3px 5px 0  0;
+  }
+}
+
+.arroba {
+  font-size: 16px;
+  margin-bottom: 0;
+  color: #606060;
+}
+
+.about {
+  overflow: hidden;
+  max-height: 120px;
+  color: $textcolor;
+}

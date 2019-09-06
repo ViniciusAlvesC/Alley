@@ -3,6 +3,7 @@ import "./App.css";
 import Nav from "../src/components/Nav";
 import Mainapp from "../src/components/Main";
 import NavProfile from "../src/components/NavProfile";
+import Cards from "../src/components/Cards"
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
         <Nav />
         <Mainapp />
         <NavProfile />
-        <h1>tste</h1>
+        <Cards />
       </div>
     );
   }

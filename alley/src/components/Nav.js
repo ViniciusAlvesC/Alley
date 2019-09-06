@@ -8,7 +8,7 @@ const navmenu = () => {
     <div>
       <Navbar className="navbar-custom shadow" light expand="md">
         <Container>
-          <NavbarBrand href="/"><img src={Logo} className="logo"></img></NavbarBrand>
+          <NavbarBrand href="/"><img src={Logo} alt="logo" className="logo"></img></NavbarBrand>
         </Container>
       </Navbar>
     </div>

@@ -1,0 +1,31 @@
+.title {
+  display: flex; }
+
+.username {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+  color: #272727; }
+
+.categories {
+  display: flex; }
+  .categories p {
+    color: white;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #4B4B4B;
+    padding: 1px 15px;
+    margin: 3px 5px 0  0; }
+
+.arroba {
+  font-size: 16px;
+  margin-bottom: 0;
+  color: #606060; }
+
+.about {
+  overflow: hidden;
+  max-height: 120px;
+  color: #272727; }
+
+/*# sourceMappingURL=Cards.css.map */

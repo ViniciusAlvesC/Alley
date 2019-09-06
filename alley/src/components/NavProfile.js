@@ -8,7 +8,7 @@ import { faCommentDots } from "@fortawesome/free-solid-svg-icons";
 const navprofile = () => {
   return (
     <div>
-      <Navbar className="navbar-custom shadow mb-5" light expand="md">
+      <Navbar className="navbar-custom shadow mb-4" light expand="md">
         <Container>
           <div className="filter">
             <h5 className="trending">TRENDING:</h5>
