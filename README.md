@@ -5,7 +5,8 @@
 #### Tarefas
 - [x] Criar Projeto AdobeXD;
 - [x] Criar template ultilizando Bootstrap4 e Sass, sem nenhuma funcionalidade;
-- [x] Criar template React, sem nenhuma funcionalidade;
+- [ ] Criar template React, sem nenhuma funcionalidade;
+- [ ] Adicionar funcionalidades;
 - [ ] Criar servidor Nodejs;
 - [ ] Criar banco de dados MongoDB;
 - [ ] Transicionar servidor para Go;
