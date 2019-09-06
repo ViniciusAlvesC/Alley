@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./css/Main.css"
+import "./css/Nav.css"
 import Celular from '../img/celular.png'
+import Logo from '../img/logo.png'
 
 const mainapp = () => {
   return (
@@ -9,6 +11,7 @@ const mainapp = () => {
       <Container>
         <Row>
           <Col lg="12" xl="8">
+          <img src={Logo} alt="logo" className="mt-5" width="100px"></img>
             <div className="info">
               <h1 className="mb-4">Bem vindo!</h1>
               <p className="mb-5">

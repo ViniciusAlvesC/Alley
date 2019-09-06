@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,cAAe;EACb,UAAU,EAAE,kBAAiB;;AAG/B,KAAM;EACJ,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,MAAM",
-"sources": ["../sass/Nav.scss"],
-"names": [],
-"file": "Nav.css"
-}
