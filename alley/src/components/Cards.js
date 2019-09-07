@@ -32,33 +32,35 @@ const Cards = props => {
         marginRight: "10px"
       };
       return (
-        <Card key={user.id} className="shadow mb-5">
-          <a href="/">
-            <div style={thumbStyle}></div>
-          </a>
-          <CardBody>
-            <div className="title">
-              <a href="/">
-                <div style={ProfilePicStyle}></div>
-              </a>
-              <div className="userinfo">
+        <Col md="12" lg="6" xl="4">
+          <Card key={user.id} className="shadow mb-5">
+            <a href="/">
+              <div style={thumbStyle}></div>
+            </a>
+            <CardBody>
+              <div className="title">
                 <a href="/">
-                  <h2 className="username">{user.username}</h2>
+                  <div style={ProfilePicStyle}></div>
                 </a>
-                <p className="arroba">{user.arroba}</p>
-                <div className="categories">
-                  <p>Illustration</p>
-                  <p>Digital</p>
+                <div className="userinfo">
+                  <a href="/">
+                    <h2 className="username">{user.username}</h2>
+                  </a>
+                  <p className="arroba">{user.arroba}</p>
+                  <div className="categories">
+                    <p>Illustration</p>
+                    <p>Digital</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <CardText className="about mb-4 mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              facilisis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sed facilisis
-            </CardText>
-          </CardBody>
-        </Card>
+              <CardText className="about mb-4 mt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                facilisis Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Sed facilisis
+              </CardText>
+            </CardBody>
+          </Card>
+        </Col>
       );
     });
     return cards;
@@ -66,38 +68,34 @@ const Cards = props => {
 
   return (
     <Container>
-      <Row>
-        <Col md="12" lg="6" xl="4">
-          {renderCards()}
-        </Col>
-        <Pagination
-          size="lg"
-          aria-label="Page navigation cards"
-          className="mt-3 pagination"
-        >
-          <PaginationItem>
-            <PaginationLink first href="/" />
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationLink previous href="/" />
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationLink href="/">1</PaginationLink>
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationLink href="/">2</PaginationLink>
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationLink href="/">3</PaginationLink>
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationLink next href="/" />
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationLink last href="/" />
-          </PaginationItem>
-        </Pagination>
-      </Row>
+      <Row>{renderCards()}</Row>
+      <Pagination
+        size="lg"
+        aria-label="Page navigation cards"
+        className="mt-3 pagination"
+      >
+        <PaginationItem>
+          <PaginationLink first href="/" />
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink previous href="/" />
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink href="/">1</PaginationLink>
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink href="/">2</PaginationLink>
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink href="/">3</PaginationLink>
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink next href="/" />
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink last href="/" />
+        </PaginationItem>
+      </Pagination>
     </Container>
   );
 };
