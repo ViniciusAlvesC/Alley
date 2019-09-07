@@ -1,3 +1,6 @@
+.navbar-custom {
+  background: #fdfdff !important; }
+
 .trending {
   text-align: left;
   font-weight: bold;
@@ -7,6 +10,9 @@
 
 .filter {
   padding: 15px 0; }
+  @media (min-width: 320px) and (max-width: 575px) {
+    .filter {
+      display: none; } }
 
 .tags {
   display: flex; }
@@ -21,6 +27,9 @@
 
 .profile {
   display: flex; }
+  @media (min-width: 320px) and (max-width: 575px) {
+    .profile {
+      margin: 30px 0; } }
 
 .profile-pic {
   border-radius: 50%;

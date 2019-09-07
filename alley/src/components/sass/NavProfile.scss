@@ -1,4 +1,15 @@
 $textcolor: #272727;
+$white: #fdfdff;
+
+@mixin small {
+  @media (min-width: 320px) and (max-width: 575px) {
+    @content;
+  }
+}
+
+.navbar-custom {
+  background: $white !important;
+}
 
 .trending {
   text-align: left;
@@ -10,6 +21,10 @@ $textcolor: #272727;
 
 .filter {
   padding: 15px 0;
+
+  @include small {
+    display: none;
+  }
 }
 
 .tags {
@@ -27,6 +42,10 @@ $textcolor: #272727;
 
 .profile {
   display: flex;
+
+  @include small {
+    margin: 30px 0;
+  }
 }
 
 .profile-pic {

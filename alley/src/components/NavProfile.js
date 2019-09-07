@@ -2,8 +2,7 @@ import React from "react";
 import "./css/NavProfile.css";
 import { Nav, NavItem, Navbar, Container } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBell } from "@fortawesome/free-solid-svg-icons";
-import { faCommentDots } from "@fortawesome/free-solid-svg-icons";
+import { faBell, faCommentDots } from "@fortawesome/free-solid-svg-icons";
 
 const navprofile = () => {
   return (
