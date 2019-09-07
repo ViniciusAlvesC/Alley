@@ -1,12 +1,16 @@
 .navbar-custom {
   background: #fdfdff !important; }
 
+.btncustom {
+  background: #4D50E3 !important; }
+
 .trending {
   text-align: left;
   font-weight: bold;
   letter-spacing: -0.53px;
   color: #272727;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  font-size: 18px; }
 
 .filter {
   padding: 15px 0; }

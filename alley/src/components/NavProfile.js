@@ -1,8 +1,21 @@
 import React from "react";
 import "./css/NavProfile.css";
-import { Nav, NavItem, Navbar, Container } from "reactstrap";
+import {
+  Nav,
+  NavItem,
+  Navbar,
+  Container,
+  InputGroup,
+  InputGroupAddon,
+  Input,
+  Button
+} from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBell, faCommentDots } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBell,
+  faCommentDots,
+  faSearch
+} from "@fortawesome/free-solid-svg-icons";
 
 const navprofile = () => {
   return (
@@ -10,17 +23,16 @@ const navprofile = () => {
       <Navbar className="navbar-custom shadow mb-5" light expand="md">
         <Container>
           <div className="filter">
-            <h5 className="trending">TRENDING:</h5>
+            <h5 className="trending">SEARCH:</h5>
             <div className="tags">
-              <a className="tag" href="/">
-                Art
-              </a>
-              <a className="tag" href="/">
-                Digital
-              </a>
-              <a className="tag" href="/">
-                Illustration
-              </a>
+              <InputGroup size="lg">
+                <Input placeholder="@" />
+                <InputGroupAddon addonType="append">
+                  <Button className="btncustom">
+                    <FontAwesomeIcon icon={faSearch} />
+                  </Button>
+                </InputGroupAddon>
+              </InputGroup>
             </div>
           </div>
 

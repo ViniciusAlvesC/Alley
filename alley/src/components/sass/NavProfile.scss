@@ -1,5 +1,6 @@
 $textcolor: #272727;
 $white: #fdfdff;
+$bgcolor: #4D50E3;
 
 @mixin small {
   @media (min-width: 320px) and (max-width: 575px) {
@@ -11,12 +12,17 @@ $white: #fdfdff;
   background: $white !important;
 }
 
+.btncustom {
+  background: $bgcolor !important
+}
+
 .trending {
   text-align: left;
   font-weight: bold;
   letter-spacing: -0.53px;
   color: $textcolor;
   margin-bottom: 15px;
+  font-size: 18px;
 }
 
 .filter {

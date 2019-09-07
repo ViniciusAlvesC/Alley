@@ -22,7 +22,7 @@ import MaxBg from "../src/img/background/maxbg.png";
 import IsadoraBg from "../src/img/background/isadorabg.png";
 import IllustrataBg from "../src/img/background/illustratabg.png";
 
-class App extends Component {
+class App extends Component { 
   state = {
     users: [
       {
